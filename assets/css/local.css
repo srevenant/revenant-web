@@ -1,0 +1,22 @@
+
+img.cover {
+    max-width: auto;
+    width: auto;
+	height: 150px;
+
+    margin: 0 auto;
+
+    display: block;
+    float: left;
+    padding 0;
+    padding-right: 1em;
+    clear: both;
+
+    background-color: none;
+    background: none;
+}
+
+.clear {
+  clear: both;
+}
+

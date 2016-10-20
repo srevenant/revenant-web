@@ -9,10 +9,22 @@ categories: posts
 tags: ['book']
 author: Brandon Gillespie
 ---
+![cover]({{ site.images }}/stopfearingit-cover.jpg){: .cover }
+Fear has quietly and insidiously woven its way throughout the very fabric of how we do business in Technology. Our goals are driven by failure, rather than success.
 
-Stop Fearing I.T.
+Design Thinking is a powerful adjustment to how we approach change.
 
-[![cover]({{ site.images }}/stopfearingit-cover.jpg)]({{ site.images }}/stopfearingit-cover.jpg)
+Stop Fearing I.T. is an invaluable asset that helps you become more effective in your career, whether you are CTO, CIO, Project Manager, Engineer, Developer, or any other role with technologists.
+
+Learn about:
+
+* The Principles of Design Thinking.
+* Identifying and ending toxic behavior.
+* Embracing change.
+* Becoming more effective in your technology career.
+* Being an influencer with technology architecture.
+
+
 
 From the blog at [Surfing The Cloud](https://surfingthe.cloud/)
 
