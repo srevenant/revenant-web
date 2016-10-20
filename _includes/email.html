@@ -1,0 +1,15 @@
+
+<script language="javascript">
+// Avoid spam spiders, sorry for the obfuscation
+function m (tld, dom, addr, subj) {
+    addr = "to:" + addr + "@";
+    addr += dom + "." + tld;
+    if (subj) {
+        addr += "?subject=" + subj;
+    }
+    document.location.href = "mail" + addr;
+}
+//
+</script>
+
+<a href="javascript:m('press', 'revenant', 'info', 'Contact Us')">Contact Us via Email</a>

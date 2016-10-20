@@ -1,0 +1,19 @@
+---
+bg: "front.jpg"
+layout: default
+crawlertitle: "Revenant Press"
+title: "Revenant Press"
+summary: ""
+---
+
+{% for post in site.posts limit: 5 %}
+
+The goal of Revenant Press is to publish uplifting and edifying books that help people through their life's challenges.  Books are a powerful medium, and we believe it is important to focus on the positive, regardless of the genre.
+
+We are proud to provide excellent and quality books to the public.
+
+  <article class="index-page">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
