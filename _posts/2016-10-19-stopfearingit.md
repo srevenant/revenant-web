@@ -10,7 +10,7 @@ tags: ['book']
 author: Brandon Gillespie
 ---
 ![cover]({{ site.images }}/stopfearingit-cover.jpg){: .cover }
-Fear has quietly and insidiously woven its way throughout the very fabric of how we do business in Technology. Our goals are driven by failure, rather than success.
+**Coming Winter 2016** -- Fear has quietly and insidiously woven its way throughout the very fabric of how we do business in Technology. Our goals are driven by failure, rather than success.
 
 Design Thinking is a powerful adjustment to how we approach change.
 
