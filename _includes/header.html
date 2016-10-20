@@ -1,3 +1,14 @@
+<script language="javascript">
+function m (tld, dom, addr, subj) {
+    addr = "to:" + addr + "@";
+    addr += dom + "." + tld;
+    if (subj) {
+        addr += "?subject=" + subj;
+    }
+    document.location.href = "mail" + addr;
+}
+</script>
+
 <header class="main-header content-wrapper">
 
   <input type="checkbox" id="menu-checkbox" />
