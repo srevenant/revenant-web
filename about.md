@@ -10,7 +10,11 @@ The goal of Revenant Press is to publish uplifting and edifying books that help 
 
 We are proud to provide excellent and quality books to the public.
 
-We are not currently accepting submissions or proposals.
+# Submissions
 
-<a href="javascript:m('press', 'revenant', 'info', 'Contact Us')">Contact Us via Email</a>
+We are accepting submissions or proposals in the following topics.  Please review our [Submission Guidelines](/submissions/) before submitting.
+
+# Sales and other Inquiries
+
+<a href="javascript:m('press', 'revenant', 'sales', 'Contact Us')">Contact Us via Email</a>
 

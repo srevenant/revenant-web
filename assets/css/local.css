@@ -1,22 +1,57 @@
 
 img.cover {
-    max-width: auto;
-    width: auto;
-	height: 150px;
-
-    margin: 0 auto;
-
-    display: block;
-    float: left;
-    padding 0;
-    padding-right: 1em;
-    clear: both;
-
-    background-color: none;
-    background: none;
+ max-width: auto;
+ width: auto;
+ height: 150px;
+ margin: 0 auto;
+ display: block;
+ float: left;
+ padding 0;
+ padding-right: 1em;
+ clear: both;
+ background-color: none;
+ background: none;
 }
 
 .clear {
-  clear: both;
+ clear: both;
+}
+
+div.ficbase, div.fic {
+ border-left: solid 1px #ccc;
+ padding-left: 1em;
+ font-family: 'Cormorant Garamond', sans-serif;
+ line-height: 150%;
+}
+div.fic {
+ text-indent: 10%;
+}
+
+body {
+ font-family: 'Raleway', sans-serif;
+}
+
+.hdrquote > blockquote, blockquote > .hdrquote {
+ border: none;
+ /*border-left: solid 5px #eee;
+ border-right: solid 5px #eee; */
+}
+
+.hdrquote {
+ font-family: 'Cormorant Garamond', sans-serif;
+ line-height: 100%;
+ text-align: center;
+ font-size: x-large;
+ font-style: italic;
+ margin: 3em 2em 0em 2em;
+ color: #999;
+}
+.hdrauthor {
+ font-family: 'Raleway', sens-serif;
+ line-height: 200%;
+ text-align: center;
+ font-size: large;
+ margin: 1em 2em 3em 2em;
+ color: #999;
 }
 

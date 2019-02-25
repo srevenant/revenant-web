@@ -5,20 +5,16 @@ crawlertitle: "Revenant Press"
 title: "Revenant Press"
 summary: ""
 ---
-
-{% for post in site.posts limit: 5 %}
-
-<div style="text-align: center; font-size: x-large; font-style: italic; margin: 5em 2em 3em 2em;">
-“However vast the darkness, we must supply our own light.”
-<br>
--Stanley Kubric</div>
+<div class="hdrquote">“They who dream by day are cognizant of many things which escape those who dream only by night.”</div>
+<div class="hdrauthor">&mdash; Edgar Allan Poe</div>
 <p>
-Revenant Press is focused on uplifting and edifying books that stir the imagination and help people through their life's challenges.  We believe books are a powerful medium, and it is important to focus on the positive, regardless of the genre.
-
+Revenant Press is focused on uplifting and edifying books that stir the imagination and help people through life's challenges.  We believe books are a powerful medium, and it is important to focus on the positive, regardless of the genre.
 We are proud to provide excellent and quality books to the public.
-
+<p>
+{% for post in site.posts limit: 5 %}
   <article class="index-page">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2 style="border-bottom: solid 0.5pt #eee"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   </article>
 {% endfor %}
+
